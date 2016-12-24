@@ -20,7 +20,8 @@
 var a = document.getElementsByClassName("timeline-comment-avatar");
 var b = document.getElementsByClassName("avatar");
 
-let avatar_src = b[0].src;
+// Use high quality avatar
+var avatar_src = b[0].src.replace(/s\=[\d]+/, "s=460");
 
 for (var i = (a.length - 1); i >= 0; i--) {
     a[i].src = avatar_src;
