@@ -2,6 +2,8 @@
 
 A userscript to replace all users' avatars with yours.
 
+## This userscript is deprecated by [anonymous-github](https://github.com/nokaa/anonymous-github).
+
 ### Install
 
 #### Firefox
